@@ -15,7 +15,6 @@ import lombok.Data;
 public class Article {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id", nullable = false)
 	private String id;
 
